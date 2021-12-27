@@ -163,6 +163,7 @@ table {
 
 table, td, th {
   border: 1px solid var(--bodyColor);
+  empty-cells: hide;
 }
 
 img {
