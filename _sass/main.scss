@@ -1,14 +1,14 @@
 @import url(styles.css);
 
-$backgroundColor: #ffffff;
-$bodyColor: #000000;
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+// $backgroundColor: #ffffff;
+// $bodyColor: #000000;
+// $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 
-body {
-  background: $backgroundColor;
-  color: $bodyColor;
-  font-family: $bodyFont;
-}
+// body {
+//   background: $backgroundColor;
+//   color: $bodyColor;
+//   font-family: $bodyFont;
+// }
 
 // $bgImage: "https://source.unsplash.com/random/1800x900";
 $bgImage: "../images/L0tsGE7634E-unsplash.jpg";
@@ -35,6 +35,12 @@ main, footer {
   margin: 0 auto;
   max-width: 650px;
 
+}
+
+main {
+  h3 {
+    border-bottom: 1px solid #ddd;
+  }
 }
 
 main > hr:nth-child(2) {
