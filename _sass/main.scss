@@ -18,13 +18,14 @@ body {
 }
 
 header {
-  height: 360px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url($bgImage);
+  height: 120px;
+  // background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url($bgImage);
   // background-image: url($bgImage);
+  background: var(--purple);
   h1 {
     margin: 0;
-    line-height: 360px;
-    font-size: 4rem;
+    line-height: 120px;
+    font-size: 3rem;
     color: #fff;
     text-align: center;
   }
